@@ -1,4 +1,4 @@
-$users = "OWSCRBD", "OWSCRMD"
+$users = "user1", "user2"
 $password = ConvertTo-SecureString -AsPlainText "dpass" -Force
 foreach ($un in $users)
 {
